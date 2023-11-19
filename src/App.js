@@ -78,7 +78,7 @@ export default function App() {
         </Container>
         <Services />
         <Container maxWidth="lg">
-          <Divider>
+          <Divider sx={{ marginBottom: "40px" }}>
             <Typography variant="h5">Waste Calculator</Typography>
           </Divider>
           <WasteCalculator />
